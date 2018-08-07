@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Contact David Knittel</title>
 </head>
 <body>
     <header>
@@ -23,6 +23,16 @@
     </header>
     <main>
         <h1>Contact</h1>
+        <form id="contact">
+            <p class="formlabel">Name</p>
+            <input type="text" name="name" placeholder="Jane Smith" required>
+            <p class="formlabel">Email</p>
+            <input type="text" name="email" placeholder="example@gmail.com" required>
+            <p class="formlabel">Message</p>
+            <textarea rows="6" name="message" form="contact" required></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
     </main>
     <footer>
         Copyright &copy;
