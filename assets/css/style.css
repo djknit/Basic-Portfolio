@@ -7,6 +7,11 @@ h1 {
     font-family: "Georgia", Times, Times New Roman, serif;
 }
 
+header {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
 header h1 {
     display: inline-block;
     color: #ffffff;
@@ -15,8 +20,30 @@ header h1 {
     margin: 0;
 }
 
+#headercontent, main, #footercontent {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    border: 2px #dddddd solid;
+    background-color: #ffffff;
+
+}
+
 main h1 {
     color: #4aaaa5;
+    width: 900px;
+    margin: 
+}
+
+p {
+    line-height: 2;
+}
+
+#footercontent {
+    text-align: center;
 }
 
 nav {
@@ -42,4 +69,12 @@ nav a {
 .port_link {
     display: inline-block;
     margin: 30px 30px 10px;
+}
+
+input, form textarea {
+    width: 100%;
+}
+
+#inputbutton {
+    width: auto;
 }
