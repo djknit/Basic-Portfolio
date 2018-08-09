@@ -35,7 +35,9 @@ main {
 main h1 {
     color: #4aaaa5;
     width: 900px;
-    margin: 
+    padding: 30px 0;
+    margin: 10px 30px 30px 30px;
+    border-bottom-style: solid;
 }
 
 p {
@@ -68,7 +70,13 @@ nav a {
 
 .port_link {
     display: inline-block;
-    margin: 30px 30px 10px;
+    margin: 30px 10px 30px 30px;
+}
+
+form {
+    width: 93.75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input, form textarea {
