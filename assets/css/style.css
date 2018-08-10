@@ -60,7 +60,7 @@ nav a {
     border-right: solid #777777 1px;
 }
 
-#lastnavlink {
+nav a:last-child {
     border: none;
 }
 
