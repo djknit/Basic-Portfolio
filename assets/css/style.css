@@ -1,4 +1,5 @@
 /* Setting styles shared by all three pages */
+
 /* --- Setting fonts (except heading font-color) */
 * {
     color: #777777;
@@ -11,6 +12,7 @@ h1 {
     font-size: 26.5px;
 }
 
+
 /* --- Setting content width */
 #headercontent, main {
     width: 960px;
@@ -18,12 +20,38 @@ h1 {
     margin-right: auto;
 }
 
+
 /* --- Header */
 header {
     padding: 0;
     margin: 0 0 16px 0;
     border-bottom: 2px solid #cccccc;
 }
+
+header h1 {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 30px 38px;
+    margin: 0;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 18px;
+    margin: 30px 0;
+    border-right: solid #dddddd .02px;
+}
+
+nav a:last-child {
+    border: none;
+}
+
 
 /* --- Footer */
 footer {
@@ -36,15 +64,8 @@ footer {
     margin-top: 40px;
 }
 
-header h1 {
-    display: inline-block;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 30px 38px;
-    margin: 0;
-}
 
-
+/* --- Main content section */
 main {
     border: 2px #dddddd solid;
     background-color: #ffffff;
@@ -64,22 +85,8 @@ p {
 }
 
 
-nav {
-    float: right;
-}
 
-nav a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 0 18px;
-    margin: 30px 0;
-    border-right: solid #dddddd .02px;
-}
-
-nav a:last-child {
-    border: none;
-}
-
+/* Styles unique to individual pages */
 #profilepic {
     float: left;
 }
