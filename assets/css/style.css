@@ -75,7 +75,11 @@ footer {
     background-color: #666666;
     padding: 40px 0 5px;
     border-top: 9px solid #4aaaa5;
-    margin-top: 40px;
+}
+
+/* ------ Sticky footer */
+.container_allexceptfooter {
+    min-height: calc(100vh - 139.5px);
 }
 
 
