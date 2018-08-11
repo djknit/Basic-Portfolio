@@ -50,15 +50,6 @@ nav {
     float: right;
 }
 
-    /* (Clearfix)
-nav::after {
-    content: "";
-    display: block;
-    clear: both;
-    overflow: auto;
-}
- */
-
 nav a {
     display: inline-block;
     text-decoration: none;
@@ -112,7 +103,7 @@ main h1 {
 }
 
 main p {
-    line-height: 2.2;
+    line-height: 2.1;
 }
 
 main p:last-child {
@@ -138,7 +129,7 @@ main p:last-child {
     top: 135px;
     width: 100%;
     padding: 18.6px 0;
-    background: #4aaaa5;
+    background-color: #4aaaa5;
     text-align: center;
     font-size: 20px;
     font-family: "Georgia", Times, Times New Roman, serif;
@@ -147,16 +138,19 @@ main p:last-child {
 
 
 /* --- Contact page */
-form {
-    width: 93.75%;
-    margin-left: auto;
-    margin-right: auto;
+label {
+    line-height: 2.1;
 }
 
 input, form textarea {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 #inputbutton {
     width: auto;
+    height: 40px;
+    width: 115px;
+    color: #ffffff;
+    background-color: #4aaaa5;
 }
