@@ -13,7 +13,7 @@ h1 {
 }
 
 
-/* --- Content width */
+/* --- Content width and body background*/
 #headercontent {
     width: 960px;
 }
@@ -29,6 +29,7 @@ main {
 
 body {
     margin: 0;
+    background-color: violet;
 }
 
 
@@ -36,6 +37,7 @@ body {
 header {
     padding: 0;
     border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
 }
 
 header h1 {
@@ -79,7 +81,7 @@ footer {
 main {
     border: 2px #dddddd solid;
     background-color: #ffffff;
-    padding: 8px 30px 30px;
+    padding: 8px 30px 30px 30px;
     margin-top: 40px;
     margin-bottom: 70px;
 }
@@ -94,7 +96,7 @@ main h1 {
 
 
 
-/* Styles unique to individual pages */
+/* Setting styles unique to individual pages */
 
 /* --- Profile page */
 #profilepic {
@@ -144,7 +146,7 @@ label {
 }
 
 input, form textarea {
-    width: 100%;
+    width: 880px;
     margin-bottom: 15px;
     padding: 0 10px;
     line-height: 2;
