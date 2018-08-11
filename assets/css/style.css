@@ -29,7 +29,7 @@ main {
 
 body {
     margin: 0;
-    background-color: violet;
+    background-image: url("../images/texturetastic_gray.png");
 }
 
 
@@ -58,10 +58,12 @@ nav a {
     padding: 0 18px;
     margin: 31px 0;
     border-right: solid #cccccc .2px;
+    font-size: 17px;
 }
 
 nav a:last-child {
     border: none;
+    padding-right: 0;
 }
 
 
@@ -80,7 +82,7 @@ footer {
 /* --- Main content section */
 main {
     border: 2px #dddddd solid;
-    background-color: #ffffff;
+    background: #ffffff;
     padding: 8px 30px 30px 30px;
     margin-top: 40px;
     margin-bottom: 70px;
@@ -93,7 +95,6 @@ main h1 {
     margin: 0 0 19px;
     border-bottom: 3px solid #dddddd;
 }
-
 
 
 /* Setting styles unique to individual pages */
@@ -141,11 +142,12 @@ main p:last-child {
 
 /* --- Contact page */
 label {
+    font-size: 17px;
     line-height: 2;
-    font-size: 18;
 }
 
 input, form textarea {
+    border: 1px #dddddd solid;
     width: 880px;
     margin-bottom: 15px;
     padding: 0 10px;
