@@ -139,12 +139,15 @@ main p:last-child {
 
 /* --- Contact page */
 label {
-    line-height: 2.1;
+    line-height: 2;
+    font-size: 18;
 }
 
 input, form textarea {
     width: 100%;
     margin-bottom: 15px;
+    padding: 0 10px;
+    line-height: 2;
 }
 
 #inputbutton {
