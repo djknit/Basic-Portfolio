@@ -9,7 +9,7 @@
 
 h1 {
     font-family: "Georgia", Times, Times New Roman, serif;
-    font-size: 26.5px;
+    font-size: 27px;
 }
 
 
@@ -27,11 +27,14 @@ main {
     margin-right: auto;
 }
 
+body {
+    margin: 0;
+}
+
 
 /* --- Header */
 header {
     padding: 0;
-    margin: 0 0 16px 0;
     border-bottom: 2px solid #cccccc;
 }
 
@@ -39,7 +42,7 @@ header h1 {
     display: inline-block;
     color: #ffffff;
     background-color: #4aaaa5;
-    padding: 30px 38px;
+    padding: 29.6px 38px;
     margin: 0;
 }
 
@@ -47,12 +50,21 @@ nav {
     float: right;
 }
 
+    /* (Clearfix)
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+ */
+
 nav a {
     display: inline-block;
     text-decoration: none;
     padding: 0 18px;
-    margin: 30px 0;
-    border-right: solid #dddddd .02px;
+    margin: 31px 0;
+    border-right: solid #cccccc .2px;
 }
 
 nav a:last-child {
@@ -76,18 +88,19 @@ footer {
 main {
     border: 2px #dddddd solid;
     background-color: #ffffff;
-    padding: 10px 30px 30px;
-    margin-top: 24px;
+    padding: 8px 30px 30px;
+    margin-top: 40px;
     margin-bottom: 70px;
 }
 
 main h1 {
     color: #4aaaa5;
     width: 900px;
-    padding: 30px 0;
+    padding: 30.6px 0;
     margin: 0 0 19px;
     border-bottom: 3px solid #dddddd;
 }
+
 
 
 /* Styles unique to individual pages */
@@ -106,14 +119,30 @@ main p:last-child {
     margin-bottom: 0;
 }
 
+
 /* --- Portfolio page */
 #port_main {
-    margin-top: 0;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    padding-bottom: 34px;
 }
 
 .port_link {
     display: inline-block;
-    margin: 30px 10px 30px 30px;
+    margin: 21px 40px 34px 0;
+    position: relative;
+}
+
+.port_icon_label {
+    position: absolute;
+    top: 135px;
+    width: 100%;
+    padding: 18.6px 0;
+    background: #4aaaa5;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    color: #ffffff;
 }
 
 
