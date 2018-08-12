@@ -67,6 +67,11 @@ nav a:last-child {
     padding-right: 0;
 }
 
+/* --- --- --- Navbar hover */
+nav a:hover {
+    font-weight: bold;
+}
+
 
 /* --- Footer */
 footer {
@@ -120,7 +125,7 @@ main p:last-child {
 
 
 /* --- Portfolio page */
-#port_main {
+#port_main { 
     margin-top: 16px;
     margin-bottom: 40px;
     padding-bottom: 34px;
@@ -130,6 +135,7 @@ main p:last-child {
     display: inline-block;
     margin: 21px 40px 34px 0;
     position: relative;
+    height: 205px;
 }
 
 .port_icon_label {
@@ -165,4 +171,9 @@ input, form textarea {
     width: 115px;
     color: #ffffff;
     background-color: #4aaaa5;
+}
+
+/* --- --- Button hover */
+#inputbutton:hover {
+    border: 3px #dddddd solid;
 }
