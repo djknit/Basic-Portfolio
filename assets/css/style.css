@@ -150,6 +150,21 @@ main p:last-child {
     color: #ffffff;
 }
 
+/* ---- --- Portfolio icon hover */
+.port_link {
+    margin-left: 3px;
+}
+#port_main {
+    padding-left: 27px;
+    width: 903px;
+}
+#port_h1{
+    margin-left: 3px;
+}
+.port_link:hover {
+    border: 3px #dddddd solid;
+    margin: 18px 37px 31px 0;
+}
 
 /* --- Contact page */
 label {
